@@ -1,0 +1,41 @@
+{
+  "name": "react",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "main": "src/index.tsx",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "slate": "^0.82.0",
+    "slate-react": "^0.82.0",
+    "react-scripts": "^5.0.0",
+    "@udecode/plate-table": "45.0.0",
+    "@udecode/plate-core": "45.0.7",
+    "@udecode/plate-list": "44.0.5",
+    "@udecode/plate-heading": "44.0.0",
+    "@udecode/plate-reset-node": "44.0.0",
+    "@udecode/plate": "45.0.9",
+    "@udecode/plate-common": "42.0.0",
+    "@udecode/plate-paragraph": "36.0.0",
+    "slate-history": "0.110.3"
+  },
+  "devDependencies": {
+    "@types/react": "19.0.0",
+    "@types/react-dom": "19.0.0",
+    "loader-utils": "3.2.1",
+    "typescript": "5.7.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
